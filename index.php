@@ -1,4 +1,5 @@
 <?php
+//create MD array
     $products = array(
                     array('Title'=>'Shoes', 'Description'=>'leather with rubber soles', 'Price'=>'$75.00', 'Qnty'=>'2', 'Image'=>'img1'),
                     array('Title'=>'socks', 'Description'=>'wool blend', 'Price'=>'$10.00', 'Qnty'=>'3', 'Image'=>'img2'),
@@ -6,17 +7,7 @@
                     array('Title'=>'hat', 'Description'=>'strait up ball cap', 'Price'=>'$18.00', 'Qnty'=>'5', 'Image'=>'img4'),
                     array('Title'=>'jacket', 'Description'=>'leather sleek', 'Price'=>'$40.00', 'Qnty'=>'8', 'Image'=>'img5')                
                 );
-//$products = array(
-  //                  array('Title'=>$_POST["title"], 'Description'=>$_POST["desc"], 'Price'=>$_POST["price"], 'Qnty'=>$_POST['qnty'], 'Image'=>$_POST['img'])
-    //            );
-// foreach($products as $row){
-//        foreach($row as $key=>$value){
-//            ${$key}[] = $value;
-//        }
-//    }
-
-//  array_multisort($Title, SORT_ASC, $Description, SORT_ASC, $Price, SORT_ASC, $Qnty, SORT_ASC, $Image, SORT_ASC, $products);
-
+//function for creating table
     function my_table($products){
         $myTable = '<table>';
         $myTable .='<tr>';
