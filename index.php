@@ -6,9 +6,9 @@
                     array('Title'=>'hat', 'Description'=>'strait up ball cap', 'Price'=>'$18.00', 'Qnty'=>'5', 'Image'=>'img4'),
                     array('Title'=>'jacket', 'Description'=>'leather sleek', 'Price'=>'$40.00', 'Qnty'=>'8', 'Image'=>'img5')                
                 );
-$products = array(
-                    array('Title'=>$_POST["title"], 'Description'=>$_POST["desc"], 'Price'=>$_POST["price"], 'Qnty'=>$_POST['qnty'], 'Image'=>$_POST['img'])
-                );
+//$products = array(
+  //                  array('Title'=>$_POST["title"], 'Description'=>$_POST["desc"], 'Price'=>$_POST["price"], 'Qnty'=>$_POST['qnty'], 'Image'=>$_POST['img'])
+    //            );
 // foreach($products as $row){
 //        foreach($row as $key=>$value){
 //            ${$key}[] = $value;
@@ -46,7 +46,7 @@ $products = array(
 <html>
 <head>
     <title>Products</title>
-    <h3>Dynamic PHP Grid Layout FROM an Array result set</h3>
+    <h3>Product Grid</h3>
    
     
     <?php
